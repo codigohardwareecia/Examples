@@ -1,0 +1,106 @@
+Esse roteiro foi feito para o Canal do Youtube Código Hardware e Cia
+
+- Salve, salve pessoal, nesse video vamos instalar o Arduino IDE e programar nosso ESP8266
+para acender um led, esse é um projeto básico, esse video irá compor nossa base de conhecimento.
+
+- Primeiramente abra o seu navegador e acesso o site da Google 
+https://www.google.com
+
+- Digite Download Arduino IDE, vamos pegar o segundo link, será necessário aceitar os cookies se for seu primeiro acesso
+
+- Em instruções de instalação na seção Windows, clique no link "Download the latest release"
+
+- Download será iniciado e vamos aguardar
+
+- Uma vez realizado o download vamos acessar a pasta onde ele foi salvo e dar duplo clique
+
+- Nessa tela inicial de licença devemos aceitar os termos para prosseguir, clique em "I Agree"
+
+- Em Choose Instalation Options selecione "Anyone All Users this computer", clique em <Next>
+
+- Nos termos de serviço clique em <IAgree>
+
+- No diretório de instalação mantenha o diretório padrão e clique em <Install>, aguarde a cópia dos arquivos...
+
+- Na tela de finalização mantenha marcado "Run Arduino IDE" e cique em <Finish>
+
+- Se aparecer alguma tela de Windows Security Alert o Arduino está adicionando uma regra no firewall, clique em "Allow Acess"
+
+- Com a tela do Arduino IDE aberta vá File >  Preferences, vai ter um campo "Additional boards manager URLs" cole
+esta url "http://arduino.esp8266.com/stable/package_esp8266com_index.json", esta URL ai ajuda o Arduino a encontrar as bibliotecas para nosso 
+ESP8266
+
+- Clique em <Ok>, e vamos aguardar o download dos pacotes necessários
+
+- Agora vamos configurar nossa placa, vá em Tools > Board > Board Manager ele vai aparecer do lado esquerdo, no campo Filter your search
+digite ESP8266, selecione o pacote "esp8266 by ESP8266 Community", clique em <Install>
+
+- Aguarda a instalação dos pacotes da placa
+
+- Vamos conectar nossa placa a porta USB
+
+- Agora precisamos avisar para o Arduino, qual placa utilizar, vá em Tools > Boards > esp8266 > NodeMCU 1.0 (ESP-12E Module)
+
+- A porta e muito importante, por padrão ele já detecta, mas se não reconhecer será necessário configurar a porta manualmente
+
+Codificação
+
+- Agora vamos começar a parte mais legal
+
+- No método setup vamos setar o pino do led embutdo na placa para saida
+
+// Configura o pino do LED interno como saída
+pinMode(LED_BUILTIN, OUTPUT);
+
+- No método loop a gente vai ligar e desligar o led
+
+  // Liga o LED 
+  // Nota: No ESP8266, o LED interno geralmente é "Active Low", 
+  // o que significa que LOW liga e HIGH desliga.
+  digitalWrite(LED_BUILTIN, LOW);   
+  delay(1000);                       // Aguarda 1 segundo
+  
+  // Desliga o LED
+  digitalWrite(LED_BUILTIN, HIGH);  
+  delay(1000);                       // Aguarda 1 segundo
+
+- Para validar se não tem nenhum erro clique no icone do Visto
+
+- Agora é só enviar par ao ESP8266 clicando no icone da setinha para direita no Arduino IDE
+
+- É possivel fazer o led piscar mais rápido mudando o delay para um valor menor
+
+ delay(500);
+
+ - Legal né
+
+ - Esse é um video simples demosntrando como se faz para programar o ESP8266, há muito mais para descobrimos, então fique com a gente,
+ inscreva-se, curta e compartilha para ajudar o canal e motivar a criação de mais videos como este e outros mais avançado
+
+ Fui
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
