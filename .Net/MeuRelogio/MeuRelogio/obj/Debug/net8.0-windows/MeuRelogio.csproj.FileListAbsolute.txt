@@ -1,0 +1,16 @@
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\bin\Debug\net8.0-windows\MeuRelogio.exe
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\bin\Debug\net8.0-windows\MeuRelogio.deps.json
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\bin\Debug\net8.0-windows\MeuRelogio.runtimeconfig.json
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\bin\Debug\net8.0-windows\MeuRelogio.dll
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\bin\Debug\net8.0-windows\MeuRelogio.pdb
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.Form1.resources
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.csproj.GenerateResource.cache
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.AssemblyInfoInputs.cache
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.AssemblyInfo.cs
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.csproj.CoreCompileInputs.cache
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.dll
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\refint\MeuRelogio.dll
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.pdb
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\MeuRelogio.genruntimeconfig.cache
+C:\Users\principal\source\repos\MeuRelogio\MeuRelogio\obj\Debug\net8.0-windows\ref\MeuRelogio.dll
